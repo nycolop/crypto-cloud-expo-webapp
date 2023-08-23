@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Press_Start_2P';
+    src: url('../font/Press_Start_2P/PressStart2P-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik/Rubik-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgba(28, 25, 23, 0.7);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    height: 60px;
+}
+
+#logo-name, nav, .contact {
+    display: flex;
+    align-items: center; 
+    gap: 30px; 
+}
+
+#logo {
+    height: 47px;
+}
+
+.contact-icons {
+    height: 30px;
+}
+
+h1 {
+    color: white;
+    font-family:'Press_Start_2P', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.background-section {
+    background-image: url('../asset/images/Component\ 9_photos_v2_x2_toned_light_ai.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+#title {
+    margin-top: 80px;
+}
+
+.background-section > p {
+    color: white;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#date {
+    font-family: 'Rubik', sans-serif; 
+    font-size: 40px;
+}
+
+#name-event {
+    font-family: 'Press_Start_2P', sans-serif;
+    font-size: 60px;
+}
+
+#place {
+    font-family: 'Rubik', sans-serif; 
+    font-size: 45px;
+
+}
+
+/* Boutons */
+#buttons-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; 
+    margin-top: 30px; 
+}
+
+#button-sponsors, #button-register {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 200px; 
+    transition: transform 0.3s, border-color 0.3s, background-color 0.3s; 
+    position: relative; 
+    z-index: 1; 
+}
+
+#button-sponsors {
+    background-color: white;
+    color: black;
+}
+
+#button-register {
+    background-color: black;
+    color: white;
+}
+
+#button-sponsors:hover {
+    transform: scale(1.1); 
+    background-color: white; 
+    border: 2px solid black; 
+}
+
+#button-register:hover {
+    transform: scale(1.1); 
+    background-color: black; 
+    border: 2px solid white; 
+}
+
+#who-are-we {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+    gap: 30px;
+}
+
+h2 {
+    font-family: 'press_Start_2P';
+    font-size: 40px; 
+    
+}
+
+#who-are-we > p {
+    font-family: 'Rubik';
+    font-size: 20px;
+    padding: 0 300px;
+    text-align: center;
+}
+
