@@ -151,6 +151,7 @@ a {
     position: relative;
     top: -50px;
     gap: 30px;
+    background-image: url(../asset/);
 }
 
 h2 {
