@@ -42,6 +42,10 @@ h1 {
     font-size: 18px;
 }
 
+nav{
+    padding-right: 100px;
+}
+
 a {
     color: white;
     font-family: 'Rubik', sans-serif;
@@ -147,11 +151,17 @@ a {
 #who-are-we {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    justify-content: center; 
     position: relative;
     top: -50px;
     gap: 30px;
-    background-image: url(../asset/);
+    padding: 50px;
+    background-image: url('../asset/images/big bitcoin.png'), url('../asset/images/small bitcoins.png'); /* Chemin vers les images */
+    background-size: 50%, auto; 
+    background-position: left top, right bottom; 
+    background-repeat: no-repeat, no-repeat;
+    height: 100%; 
 }
 
 h2 {
@@ -165,5 +175,6 @@ h2 {
     font-size: 20px;
     padding: 0 300px;
     text-align: center;
+    background-image: url('../asset/images/');
 }
 
