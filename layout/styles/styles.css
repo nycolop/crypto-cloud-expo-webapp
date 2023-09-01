@@ -198,7 +198,8 @@ h2  {
     font-family: 'Rubik';
     font-size: 22px;
     /* box-shadow, text-shadow, */
-    text-shadow: 1px 1px 1px lightgray /* x, y, opacity, color */
+    text-shadow: 1px 1px 1px lightgray /* x, y, opacity, color */;
+    text-align: center;
 }
 
 #who-are-we img {
@@ -411,6 +412,7 @@ aside > p {
     color: white;
     text-shadow: 1px 1px 1px black; 
     position: relative; 
+    text-align: center;
 }
 
 .map {
