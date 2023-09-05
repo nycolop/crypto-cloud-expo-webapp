@@ -21,4 +21,4 @@
 ![alt](./layout/asset/images/Capture%20d%E2%80%99%C3%A9cran%202023-09-05%20%C3%A0%2021.33.22.png)
 
 ### Following Design
-![alt](../bitcoin-webapp/docs/design.png)
+![alt](./layout/asset/images/design.png)
