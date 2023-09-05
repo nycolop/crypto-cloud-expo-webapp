@@ -90,12 +90,7 @@ a {
   position: relative;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  position: relative;
   top: -80px;
-}
-
-#title {
-  margin-top: 80px;
 }
 
 .background-section > p {
@@ -109,61 +104,9 @@ a {
   gap: 30px;
 }
 
-#date {
-  font-family: "Rubik", sans-serif;
-  font-size: 2.5rem; /* 40/16 */
-}
-
 #name-event {
   font-family: "Press_Start_2P", sans-serif;
   font-size: 3.75rem; /* 60/16 */
-}
-
-/* Boutons */
-#buttons-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  margin-top: 30px;
-}
-
-#button-sponsors,
-#button-register {
-  padding: 10px 20px;
-  border-radius: 6px;
-  border: none;
-  cursor: pointer;
-  font-family: "Rubik", sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  width: 200px;
-  transition: transform 0.3s, border-color 0.3s, background-color 0.3s;
-  position: relative;
-}
-
-#button-sponsors {
-  background-color: white;
-  color: black;
-  box-shadow: 1px 1px 5px gray; /* y, x, opacity, color */
-}
-
-#button-register {
-  background-color: black;
-  color: white;
-  box-shadow: 1px 1px 5px gray;
-}
-
-#button-sponsors:hover {
-  transform: scale(1.1);
-  background-color: white;
-  border: 2px solid black;
-}
-
-#button-register:hover {
-  transform: scale(1.1);
-  background-color: black;
-  border: 2px solid white;
 }
 
 /*section who are we*/
@@ -191,11 +134,11 @@ h2 {
 }
 
 #who-are-we > p {
-    font-family: 'Rubik';
-    font-size: 22px;
-    /* box-shadow, text-shadow, */
-    text-shadow: 1px 1px 1px lightgray /* x, y, opacity, color */;
-    text-align: center;
+  font-family: "Rubik";
+  font-size: 22px;
+  /* box-shadow, text-shadow, */
+  text-shadow: 1px 1px 1px lightgray /* x, y, opacity, color */;
+  text-align: center;
 }
 
 #who-are-we img {
@@ -356,6 +299,11 @@ h2 {
 
 .logo-sponsor {
   width: 21%;
+  filter: grayscale(100%);
+}
+
+.logo-sponsor:hover {
+  filter: none;
 }
 
 .logo-sponsor img {
@@ -396,12 +344,12 @@ aside > div {
 }
 
 aside > p {
-    font-family: 'Rubik', sans-serif; 
-    font-size: 2.8125rem; /* 45/16 */
-    color: white;
-    text-shadow: 1px 1px 1px black; 
-    position: relative; 
-    text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.8125rem; /* 45/16 */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  position: relative;
+  text-align: center;
 }
 
 .map {
@@ -448,6 +396,81 @@ footer h2 {
 small {
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+
+#counter {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #09090b;
+  padding: 25px 0px;
+}
+
+#clock {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#clock > article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik";
+  gap: 8px;
+}
+
+#place-date {
+  font-size: 26px;
+}
+
+#place-text {
+  font-size: 22px;
+}
+
+#black {
+  background-color: black;
+  color: white;
+  border: white solid 2px;
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+}
+
+.white {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+}
+
+#black,
+.white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  text-shadow: none;
+}
+
+.number {
+  font-family: "Press_Start_2P", sans-serif;
+  font-size: 1.75rem;
+}
+
+.tipo {
+  font-family: "Rubik";
 }
 
 /*mediaquery*/
