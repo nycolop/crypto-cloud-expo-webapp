@@ -1,0 +1,21 @@
+footer {
+  background-image: url("../../assets/images/background\ footer\ .png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+footer > section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+footer h2 {
+  padding: 0px;
+}

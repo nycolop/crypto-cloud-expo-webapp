@@ -1,0 +1,28 @@
+header {
+  background-color: rgba(28, 25, 23, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 60px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 1px 1px 5px black;
+}
+
+#logo-name,
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav {
+  padding-right: 100px;
+}
+
+.hamburger {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
